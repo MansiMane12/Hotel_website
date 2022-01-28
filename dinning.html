@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+.div1 {
+  width: 100px;
+  height: 100px;
+  border: none;
+  box-sizing: border-box;
+}
+ .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.row {
+  flex: 33.33%;
+  padding: 5px;
+}
+.container {
+  position: relative;
+  font-family: Arial;}
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+</style>
+</head>
+<body>
+<h1 style="text-align:center ; font-size:30px;">DINNING</h1>
+<div class="row">
+  <div class="column">
+    <img src="food1.jpeg" alt="Food1" style="width:100%">
+  </div>
+<h1 style="text-align:center;">About Our Service</h1>
+<marquee direction="right" behavior="alternate"> 
+ 
+    <p ></br>The food served at both restaurant is one of the highlights of your stay, and we serve a mix of Indian and international cuisine.</br> Dining can be as formal or informal as you wish, from full four-course gourmet meals to healthy meals with the children.</br>
+Meals can be themed, traditional or a mix! Ask us for some ideas or give us yours. </br>All meals at The Lodge are served communally around a shared table, but it is possible to organise private dinners in some rooms on request. </p></marquee>
+  <div class="column">
+    <img src="food2.jpg" alt="Food" style="width:100%">
+  </div>
+<h2 style="text-align:center;">Favourite Dish</h2>
+<marquee direction="left" behavior="alternate"> 
+ 
+    <p ></br>We may not be able to travel to every country on Earth, but a great way to get a taste of a culture is to sample its signature dishes.
+
+Here’s a selection of popular dishes you shouldn’t miss.. </p></marquee>
+
+  <div class="column">
+    <img src="food3.jpg" alt="Food3" style="width:100%">
+<h7 style="text-align:center ; font-size:30px;">Berry Rhuburb Fool Cake </h7>
+   
+     <p>A "fool" is a British dessert that's usually made with custard. This is a modified, quicker version I created. My kids love it because it doesn't taste like rhubarb—so I guess it's well named! —Cheryl Miller, Fort Collins, Colorado.....</p>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+   
+    <a target="_blank" href="food4.jpeg">
+      <img src="food4.jpeg" alt="Food4" width="100%" height="600">
+    <h6 style="text-align:center ; font-size:30px;">Triple Cheese cake </h6>
+   
+        <p>What could be better than a brownie crust layered with chocolate cheesecake <br> and topped with chocolate ganache? <br>These cheesecake bars will satisfy even the biggest     chocolate lovers out there. —Andrea Price, Grafton, Wisconsin.....</p></a>
+</div>
+</div>
+
+  <div class="responsive">
+ <div class="gallery">
+    <a target="_blank" href="food5.jpg">
+    <img src="food5.jpg" alt="Food5" style="width:100%">
+<h6 style="text-align:center ; font-size:30px;">Pumpkin Pecan Custard </h6>
+   
+     <p>My family loves pumpkin pie flavor, but this is a delicious, creamy, healthier alternative <br> and we don’t miss the crust at all. It firms up as it cools. —Abby Booth, Coweta, Oklahoma.....</p></a>
+  </div>
+</div>
+  <div class="responsive">
+     <div class="gallery">
+    <a target="_blank" href="food6.jpg">
+    <img src="food6.jpg" alt="Food6" style="width:100%">
+
+  </div>
+</div>
+
+
+</body>
+</html>

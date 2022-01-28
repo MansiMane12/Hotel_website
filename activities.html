@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 30px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 2px;
+  float: left;
+  width: 44.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 79.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center;">Activities</h2>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="gym1.jpg">
+      <img src="gym1.jpg" alt="Gym" width="800" height="600">
+    </a><h6 style="text-align:center ; font-size:30px;">GYM</h6>
+    <div class="desc">Equipment Needs Items such as treadmills, bikes, elliptical machines, and weights are the core of every hotel gym. You must include this equipment to provide guests with proper exercise options, even if your property is a smaller hotel.</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="swim.jpeg">
+      <img src="swim.jpeg" alt="Swim" width="600" height="300">
+    </a><h5 style="text-align:center;font-size:30px;">SWIMMING POOL</h5>
+    <div class="desc">The Pool area does not only consist of a swimming pool, it has a wide area for leisure and activities for all guests.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="club.jpg">
+      <img src="club.jpg" alt="Club" width="600" height="400">
+    </a><h4 style="text-align:center;font-size:30px;">CLUB HOUSE</h4>
+    <div class="desc">Our indoor activities include arcade games such as Chess,  Carrom Board etc. Some other activities include mini table tennis, snooker and a mini pool table.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="garden.jpg">
+      <img src="garden.jpg" alt="Garden" width="600" height="400">
+    </a>
+    <h3 style="text-align:center;font-size:30px;">GARDEN</h3>
+    <div class="desc">A garden is a planned space, usually outdoors, set aside for the cultivation, display, and enjoyment of plants and other forms of nature. The single feature identifying even the wildest wild garden is control</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:4px;">
+  
+</div>
+
+</body>
+</html>
